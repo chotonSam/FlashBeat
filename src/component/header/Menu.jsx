@@ -14,7 +14,7 @@ export default function Menu() {
   }
   return (
     <div className="container mx-auto mt-6">
-      <ul className="flex flex-wrap items-center justify-center gap-5 text-xs font-semibold lg:text-base">
+      <ul className="flex flex-wrap items-center justify-center gap-5 text-sm font-semibold lg:text-base">
         <li onClick={() => MenuHandler("general")}>
           <a href="#">General</a>
         </li>
